@@ -1,0 +1,63 @@
+#main-prin{
+   display: flex;
+   flex-direction:row ;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: space-around;    
+}
+#img{
+    rotate: -30deg;
+    height: 300px;
+    width: 500px;
+}
+#img_pro{
+    margin-top: 10%;
+
+    height: 50%;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+#tex_pre_talla{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 40%;
+}
+#nom{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+#text{
+    width:  70%;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Hermeneus One';
+    color: aliceblue;
+    width:  80%;
+}
+#col{
+    color: rgb(247, 212, 114);
+}
+#talla{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(142, 142, 142);
+}
+button{
+    margin: 0;
+}
+.flecha{
+    height: 50px;
+    width: 40px;
+}
