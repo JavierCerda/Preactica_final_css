@@ -48,6 +48,7 @@ ul button{
     color: #000;
     margin: 0;
     font-size: 30px;
+    font-family: 'Alata';
 }
 
 .produc{
@@ -80,7 +81,7 @@ ul button{
     justify-content: space-between;
 }
 #col_img{
-    background-color: #88FF00;
+    background-color: #7443FF;
     padding: 20px;
     border-radius: 10px 10px 0px 0px ;
     display: flex;
@@ -89,7 +90,7 @@ ul button{
     align-items:center;
 }
 #col_img2{
-    background-color: #ff0000;
+    background-color: #FFBA00;
     padding: 20px;
     border-radius: 10px 10px 0px 0px ;
     display: flex;
@@ -98,7 +99,7 @@ ul button{
     align-items:center;
 }
 #col_img3{
-    background-color: #d900ff;
+    background-color: #FB4B29;
     padding: 20px;
     border-radius: 10px 10px 0px 0px ;
     display: flex;
@@ -107,7 +108,7 @@ ul button{
     align-items:center;
 }
 #col_img4{
-    background-color: #eeff00;
+    background-color: #88FF00;
     padding: 20px;
     border-radius: 10px 10px 0px 0px ;
     display: flex;
@@ -116,7 +117,7 @@ ul button{
     align-items:center;
 }
 #col_img5{
-    background-color: #1100ff;
+    background-color: #FF0073;
     padding: 20px;
     border-radius: 10px 10px 0px 0px ;
     display: flex;
@@ -125,7 +126,7 @@ ul button{
     align-items:center;
 }
 #col_img6{
-    background-color: #00ffaa;
+    background-color: #008AF0;
     padding: 20px;
     border-radius: 10px 10px 0px 0px ;
     display: flex;
