@@ -74,4 +74,7 @@ section p {
     gap: 15px;
     margin-left: 3%;
 }
-
+.boton_circulo:hover{
+    background-color: #fb4b29;
+    border-radius: 25px;
+}
