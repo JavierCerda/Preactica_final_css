@@ -6,7 +6,6 @@
     align-items: center;
     gap: 10%;
     margin-top: 10%;
-    width: 100%;
 }
 
 #div_img_sob{
@@ -24,7 +23,7 @@
     flex-wrap: wrap;
 }
 #tex{
-    max-width: 494px;
+    width: 400px;
 }
 #fot{
     width: 40%;
