@@ -21,6 +21,7 @@ li{
 li p{
     font-size: 30px;
     color: orangered;
+    font-family: 'Graduate', sans-serif;
 }
 .flecha{
     rotate: 90deg;
@@ -47,8 +48,9 @@ ul button{
 #productos p{
     color: rgb(255, 255, 255);
     margin: 0;
-    font-size: 30px;
-    font-family: 'Alata';
+    font-size: 20px;
+    font-family: 'Graduate', sans-serif;
+
 }
 
 .produc{

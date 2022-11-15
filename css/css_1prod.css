@@ -33,14 +33,13 @@
 #nom{
     display: flex;
     flex-direction: row;
-    gap: 10%;
 }
 #text{
     width:  70%;
 }
 h2{
     font-size: 40px;
-    font-family: 'Hermeneus One';
+    font-family: 'Graduate', sans-serif;
     color: aliceblue;
     width:  80%;
 }
