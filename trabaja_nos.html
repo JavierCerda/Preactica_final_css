@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nosotros</title>
+    <title>Trabaja Con Nosotros</title>
     <link rel="stylesheet" href="./css/css.css">
-    <link rel="stylesheet" href="./css/css_sobre.css">
+    <link rel="stylesheet" href="./css/css_trab.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
     <header>
         <nav>
             <div id="padre_nav">
                 <div><button type="button"> <img src="./img/unnamed.png" height="60" width="60"/></button></div>
-                <div><img src="./img/logo.png" height="100" width="100" alt="#" /></div>
+                <div id="botenla"><a title="Inicio"  href="./index.html"><img src="./img/logo.png" alt="#" height="100" width="100" /></a></div>
                 <div id="genero">
                     <a href="#">MEN</a>
                     <a href="#">WOMAN</a>
@@ -31,9 +33,9 @@
         <section id="todo">
             <section id="padre_main">
                 <div  id="fot">
-                    <a href="#">DELIVERY</a>
+                    <a href="./trabaja_nos.html">DELIVERY</a>
                     <a href="#">PACKAGING</a>
-                    <a href="#">FAQ</a>   
+                    <a href="./sobre_nos.html">FAQ</a>   
                 </div>
                 <div id="redes">
                     <div><button class="boton_circulo" type="button"> <img src="./img/twi.png" height="30" width="30"/></button></div>
@@ -42,17 +44,22 @@
                 </div>
             </section>
             <section id="seccion2">
-                <div id="div_img_sob"><img id="img_sobre" src="./img/sobre_n.PNG"/></div>
-                <div id="img_y_tex">
-                    <div id="tex"><p>Boutique Lluna es una tienda especializada en ropa y complementos 
-                        situada en el corazón de Altea. Ofrecemos moda a todo tipo de mujeres que buscan
-                        un estilismo elegante, femenino y diferenciador para el día a día y los momentos más
-                         especiales.
-                        Buscamos las últimas tendencias en moda a 
-                        la vez que nos adaptamos a las exigencias de nuestras consumidoras. 
-                        Porque en Lluna tú eres la auténtica protagonista. Nos encargamos de que te 
-                        sientas en un ambiente agradable y.</p></div>
-                    <div id="fot"><img id="img_sobre2" src="./img/nost.PNG"/></div>
+                <div>
+                    <div id="padre">
+                        <div><h2>TRANAJA CON NOSOTROS</h2></div>
+                        <div>
+                            <form id="form">
+                                <div><input type="text"  name="nom" placeholder="Nombre" size="15"></div>
+                                <div><input type="text" name="dni" placeholder="DNI" size="15" ></div>
+                                <div><input type="text" name="tlf" placeholder="Telefono" size="15" ></div>
+                                <div id="bord"><input type="button" class="uploadButton" value="Browse"  /></div>
+                                <div><input type="submit" class="uploadButton"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>    
+                <div>
+                    <img id="trab" src="./img/istockphoto-901542640-612x612.jpg" alt="">
                 </div>
             </section>
         </section>

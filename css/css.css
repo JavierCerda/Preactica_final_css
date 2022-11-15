@@ -38,7 +38,7 @@ nav a:hover {
     border-bottom: 2px solid #fb4b29;
     color: #fb4b29;
 }
-section a:hover {
+#padre_main a:hover {
     border-left: 2px solid #fb4b29;
     color: #fb4b29;
 }
@@ -77,4 +77,7 @@ section p {
 .boton_circulo:hover{
     background-color: #fb4b29;
     border-radius: 25px;
+}
+#botenla a:hover{
+    border: none;
 }
