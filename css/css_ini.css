@@ -1,3 +1,4 @@
+/*Esto es el css del home*/
 #seccion2{
     display: flex;
     flex-direction: column;
@@ -6,6 +7,7 @@
     justify-content: space-between;
     width:  100%;
 }
+/*div del padre*/
 #padre{
     display: flex;
     flex-direction: row;
@@ -13,7 +15,7 @@
     justify-content: space-between;
 
 }
-
+/*Estilo para el titulo en 3d*/
 h2{
     margin: 0;
     text-align: start;
@@ -35,6 +37,7 @@ h2{
     color: #ffd6ae;
     -webkit-text-stroke: 1px black;
 }
+/*Lo mismo para h3*/
 h3{
     margin: 0;
     text-align: start;
@@ -59,6 +62,7 @@ h3{
 button{
     margin: 0;
 }
+/*Botones*/
 .botones{
     background-color: black;
     color: #fb4b29;
@@ -73,10 +77,11 @@ button{
     color: aliceblue;
     background-color: #fb4b29;
 }
+/*Img zapat*/
 #jordan{
     transform:rotate(-30deg);
 }
-
+/*Img zapat*/
 #zapatilla{
     width: 50%;
     display: flex;
@@ -92,7 +97,7 @@ button{
     font-size:medium;
     font-family: 'Graduate', sans-serif;
 }
-
+/*Padre*/
 #padre_precio_texto{
     display: flex;
     flex-direction: row;
@@ -105,6 +110,7 @@ button{
     display: flex;
     flex-direction: row;
 }
+/*Precio y estrella*/
 #precio_estre{
     text-align: center;
     display: flex;
@@ -113,6 +119,7 @@ button{
     justify-content: center;
     gap: 5px;
 }
+/*Circulo de colores*/
 #circulos{
     display: flex;
     flex-direction: column;
@@ -122,7 +129,7 @@ button{
 
 
 
-
+/*Padre 2*/
 #padre2_main{
     display: flex;
     flex-direction: row;
@@ -186,6 +193,7 @@ button{
     justify-content:center;
     align-items:center;
 }
+/*Aqui tenemos estilo a*/
 #productos a{  
     border-radius: 10px;
     border: 1px solid rgb(255, 99, 3);
@@ -201,6 +209,7 @@ button{
 #productos a:hover p{
     color: rgb(255, 255, 255);
 }
+/*Aqui ajustamos los tamaños segun el tamaño de la pagina*/
 @media (max-width: 1250px) {
     #jordan{
         height:200px;

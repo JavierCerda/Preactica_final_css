@@ -1,4 +1,4 @@
-
+/*Esto es el ccs de trabaja con nosotros*/
 #seccion2{  
     display: flex;
     text-align: center;
@@ -10,7 +10,7 @@
     width: 100%;
     flex-wrap: wrap;
 }
-
+/*Esto es el div padre*/
 #padre{
     background-color: rgba(235, 106, 0, 0.568);
     color: rgb(255, 255, 255);
@@ -27,12 +27,12 @@
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+/*Esto es el formulario*/
 #form div{
 margin-top: 30px;
 
 }
-  
-
+/*Input*/
 input {
     background-color:#0000005c;
     border: none;
@@ -46,7 +46,7 @@ input {
     opacity: 1; 
     
   }
-  .uploadButton {
+.uploadButton {
     background-color: #0000005c;
     border: none;
     border-radius: 3px;

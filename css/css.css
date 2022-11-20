@@ -1,3 +1,4 @@
+/*Esto es el ccs global que guarda el header y el footer de todos*/
 *{
     font-family: 'Graduate', sans-serif;
 }
@@ -8,6 +9,7 @@ html{
     width:100%;
     height:100%;    
 }
+/*Para el header*/
 #padre_nav{
     display: flex;
     flex-direction: row;
@@ -15,7 +17,7 @@ html{
     align-items: center;
     gap: 12%;
 }
-
+/*Botones*/
 button{
     background: none;
     border: none; 
@@ -25,6 +27,7 @@ button{
     height: 100%;
     width: 30%;
 }
+/*Enlaces*/
 nav a, section a{
     margin-left: 5%;
     color: aliceblue;

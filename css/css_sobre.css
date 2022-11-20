@@ -1,3 +1,4 @@
+/*Esta es el css para sobre nosotros*/
 #seccion2{
     display: flex;
     text-align: center;
@@ -8,11 +9,12 @@
     margin-top: 5%;
     width: 100%;
 }
-
+/*Tamaño de div img*/
 #div_img_sob{
     height: 40%;
     width: 60%;
 }
+/*Imagen sobre*/
 #img_sobre{
     height: 100%;
     width: 100%;
@@ -23,6 +25,7 @@
     width: 60%;
     flex-wrap: wrap;
 }
+/*Maximo del texto*/
 #tex{
     max-width: 494px;
 }
