@@ -1,0 +1,2 @@
+figma: https://www.figma.com/file/webnoak9DLaMiD7ax2vsEg/Nike-Shoe-Website-Hero-Section-(Community)?node-id=12%3A2&t=NZ77vMB6ejdl1QuX-1
+github: https://github.com/JavierCerda/Preactica_final_css
