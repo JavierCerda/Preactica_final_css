@@ -83,3 +83,14 @@ section p {
 #botenla a:hover{
     border: none;
 }
+@media (max-width: 800px) {
+    #cesta_lupa{
+        display: none;
+    }
+    
+  }
+@media (max-width: 630px) {
+    #genero{
+        display: none;
+    }
+}
